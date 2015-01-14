@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBE12BAF1A665C9F00281CFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE12BAE1A665C9F00281CFC /* main.m */; };
+		FBE12BB21A665C9F00281CFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE12BB11A665C9F00281CFC /* AppDelegate.m */; };
+		FBE12BB51A665C9F00281CFC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE12BB41A665C9F00281CFC /* ViewController.m */; };
+		FBE12BB81A665C9F00281CFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBE12BB61A665C9F00281CFC /* Main.storyboard */; };
+		FBE12BBA1A665C9F00281CFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBE12BB91A665C9F00281CFC /* Images.xcassets */; };
+		FBE12BBD1A665C9F00281CFC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE12BBB1A665C9F00281CFC /* LaunchScreen.xib */; };
+		FBE12BC91A665C9F00281CFC /* MultiplyChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE12BC81A665C9F00281CFC /* MultiplyChallengeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBE12BC31A665C9F00281CFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBE12BA11A665C9E00281CFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBE12BA81A665C9E00281CFC;
+			remoteInfo = MultiplyChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBE12BA91A665C9E00281CFC /* MultiplyChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiplyChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBE12BAD1A665C9F00281CFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBE12BAE1A665C9F00281CFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBE12BB01A665C9F00281CFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FBE12BB11A665C9F00281CFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FBE12BB31A665C9F00281CFC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FBE12BB41A665C9F00281CFC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FBE12BB71A665C9F00281CFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBE12BB91A665C9F00281CFC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FBE12BBC1A665C9F00281CFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FBE12BC21A665C9F00281CFC /* MultiplyChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiplyChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBE12BC71A665C9F00281CFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBE12BC81A665C9F00281CFC /* MultiplyChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiplyChallengeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBE12BA61A665C9E00281CFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE12BBF1A665C9F00281CFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBE12BA01A665C9E00281CFC = {
+			isa = PBXGroup;
+			children = (
+				FBE12BAB1A665C9F00281CFC /* MultiplyChallenge */,
+				FBE12BC51A665C9F00281CFC /* MultiplyChallengeTests */,
+				FBE12BAA1A665C9E00281CFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBE12BAA1A665C9E00281CFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBE12BA91A665C9E00281CFC /* MultiplyChallenge.app */,
+				FBE12BC21A665C9F00281CFC /* MultiplyChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBE12BAB1A665C9F00281CFC /* MultiplyChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				FBE12BB01A665C9F00281CFC /* AppDelegate.h */,
+				FBE12BB11A665C9F00281CFC /* AppDelegate.m */,
+				FBE12BB31A665C9F00281CFC /* ViewController.h */,
+				FBE12BB41A665C9F00281CFC /* ViewController.m */,
+				FBE12BB61A665C9F00281CFC /* Main.storyboard */,
+				FBE12BB91A665C9F00281CFC /* Images.xcassets */,
+				FBE12BBB1A665C9F00281CFC /* LaunchScreen.xib */,
+				FBE12BAC1A665C9F00281CFC /* Supporting Files */,
+			);
+			path = MultiplyChallenge;
+			sourceTree = "<group>";
+		};
+		FBE12BAC1A665C9F00281CFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBE12BAD1A665C9F00281CFC /* Info.plist */,
+				FBE12BAE1A665C9F00281CFC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FBE12BC51A665C9F00281CFC /* MultiplyChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBE12BC81A665C9F00281CFC /* MultiplyChallengeTests.m */,
+				FBE12BC61A665C9F00281CFC /* Supporting Files */,
+			);
+			path = MultiplyChallengeTests;
+			sourceTree = "<group>";
+		};
+		FBE12BC61A665C9F00281CFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBE12BC71A665C9F00281CFC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBE12BA81A665C9E00281CFC /* MultiplyChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBE12BCC1A665C9F00281CFC /* Build configuration list for PBXNativeTarget "MultiplyChallenge" */;
+			buildPhases = (
+				FBE12BA51A665C9E00281CFC /* Sources */,
+				FBE12BA61A665C9E00281CFC /* Frameworks */,
+				FBE12BA71A665C9E00281CFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiplyChallenge;
+			productName = MultiplyChallenge;
+			productReference = FBE12BA91A665C9E00281CFC /* MultiplyChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBE12BC11A665C9F00281CFC /* MultiplyChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBE12BCF1A665C9F00281CFC /* Build configuration list for PBXNativeTarget "MultiplyChallengeTests" */;
+			buildPhases = (
+				FBE12BBE1A665C9F00281CFC /* Sources */,
+				FBE12BBF1A665C9F00281CFC /* Frameworks */,
+				FBE12BC01A665C9F00281CFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBE12BC41A665C9F00281CFC /* PBXTargetDependency */,
+			);
+			name = MultiplyChallengeTests;
+			productName = MultiplyChallengeTests;
+			productReference = FBE12BC21A665C9F00281CFC /* MultiplyChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBE12BA11A665C9E00281CFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "May Yang";
+				TargetAttributes = {
+					FBE12BA81A665C9E00281CFC = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					FBE12BC11A665C9F00281CFC = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = FBE12BA81A665C9E00281CFC;
+					};
+				};
+			};
+			buildConfigurationList = FBE12BA41A665C9E00281CFC /* Build configuration list for PBXProject "MultiplyChallenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBE12BA01A665C9E00281CFC;
+			productRefGroup = FBE12BAA1A665C9E00281CFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBE12BA81A665C9E00281CFC /* MultiplyChallenge */,
+				FBE12BC11A665C9F00281CFC /* MultiplyChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBE12BA71A665C9E00281CFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE12BB81A665C9F00281CFC /* Main.storyboard in Resources */,
+				FBE12BBD1A665C9F00281CFC /* LaunchScreen.xib in Resources */,
+				FBE12BBA1A665C9F00281CFC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE12BC01A665C9F00281CFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBE12BA51A665C9E00281CFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE12BB51A665C9F00281CFC /* ViewController.m in Sources */,
+				FBE12BB21A665C9F00281CFC /* AppDelegate.m in Sources */,
+				FBE12BAF1A665C9F00281CFC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE12BBE1A665C9F00281CFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE12BC91A665C9F00281CFC /* MultiplyChallengeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBE12BC41A665C9F00281CFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBE12BA81A665C9E00281CFC /* MultiplyChallenge */;
+			targetProxy = FBE12BC31A665C9F00281CFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBE12BB61A665C9F00281CFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBE12BB71A665C9F00281CFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBE12BBB1A665C9F00281CFC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBE12BBC1A665C9F00281CFC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBE12BCA1A665C9F00281CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FBE12BCB1A665C9F00281CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBE12BCD1A665C9F00281CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultiplyChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FBE12BCE1A665C9F00281CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultiplyChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FBE12BD01A665C9F00281CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MultiplyChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiplyChallenge.app/MultiplyChallenge";
+			};
+			name = Debug;
+		};
+		FBE12BD11A665C9F00281CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MultiplyChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiplyChallenge.app/MultiplyChallenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBE12BA41A665C9E00281CFC /* Build configuration list for PBXProject "MultiplyChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBE12BCA1A665C9F00281CFC /* Debug */,
+				FBE12BCB1A665C9F00281CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBE12BCC1A665C9F00281CFC /* Build configuration list for PBXNativeTarget "MultiplyChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBE12BCD1A665C9F00281CFC /* Debug */,
+				FBE12BCE1A665C9F00281CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FBE12BCF1A665C9F00281CFC /* Build configuration list for PBXNativeTarget "MultiplyChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBE12BD01A665C9F00281CFC /* Debug */,
+				FBE12BD11A665C9F00281CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBE12BA11A665C9E00281CFC /* Project object */;
+}
